@@ -1,5 +1,4 @@
 from eth_account import Account  # noqa: E402,
-import pkg_resources
 
 from web3.main import (
     AsyncWeb3,
@@ -22,7 +21,7 @@ from web3.providers.websocket import (  # noqa: E402
     WebsocketProviderV2,
 )
 
-__version__ = pkg_resources.get_distribution("web3").version
+__version__ = "6.13.0"
 
 __all__ = [
     "__version__",
